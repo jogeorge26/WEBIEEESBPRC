@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="pt-0">
+    <main className="">
       <section
         className="relative flex items-center justify-start h-screen bg-contain bg-no-repeat bg-right-bottom"
         style={{
           backgroundImage: "url(/home.png)",
-          // height: "100vh",
+          height: "85vh",
           // width: "100vw",
         }}
       >
