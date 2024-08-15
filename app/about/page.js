@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Counter from "@/components/counter";
+import Counter from "../../components/counter";
 export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center ">
