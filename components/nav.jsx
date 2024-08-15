@@ -1,4 +1,3 @@
-import Logo from "../assets/prc-sblogo.png";
 import Image from "next/image";
 
 function Navbar2() {
@@ -8,7 +7,13 @@ function Navbar2() {
       className="flex flex-row items-center  p-2 pt-4 px-3 justify-between bg-white text-black mx-5"
     >
       <a href="#" className="flex-shrink-0 mr-4">
-        <Image className="w-24 h-auto" src={Logo} alt="Logo" />
+        <Image
+          className="w-24 h-auto"
+          src={"/logo.png"}
+          width={100} 
+          height={100}
+          alt="Logo"
+        />
       </a>
       <ul className="flex flex-row space-x-4 items-center">
         <li>
