@@ -33,7 +33,7 @@ export default function AboutPage() {
                 The idea that we can use technology to take our experience
               </span>
               , as security lovers, to a new dimension and leave the computer
-              industry in better shape while we're at it.
+              industry in better shape while {"we're"} at it.
             </p>
             <p className="text-black mb-4 text-xl font-thin">
               You can dive into the atoms that make up a product, share the
